@@ -1,0 +1,53 @@
+///////////////////////////////////////////////
+////////////  v4.6.11.04 06/09/2011
+/////////////////////////////////////////////
+- ré-implémentation de php my visit 2.
+- pied de page sur l'acceuil
+- gestion des erreurs sur la page d'init.php
+
+////////////////////////////////////////////////
+////////////  v4.6.11.04 24/08/2011
+//////////////////////////////////////////////
+- ajout d'une variable dans la BDD.
+	Comme tout les "serveurs clients" se connectent au serveur central
+	la variable va indiquer si on est en mode "crash soft" ou pas.
+- Ajout de la variable 'debug_mode'dans la BDD.
+- Lien 'mailto' sur mon nom.
+- ascenceur sur les fenetre popup des graphiques.
+
+
+
+
+
+
+
+
+////////////////////////////////////////////
+///////// Params Obfuscator + Mise en prod 
+///////////////////////////////////////////
+Retirer : 
+-- conf.php
+-- c_requete.php
+-- c_stat.php      <-- Pas sur car dnas les parametres suivants ... on peut faire le cryptage de ces fichiers.
+-- functions.php   <-- Idem.
+
+Options pour tout les fichiers : Désactiver l'obfuscation des fonctions.
+- Retirer les com's et retour charriot.
+- Obf. variables.
+
+
+Options pour functions.php : 
+- enlever les com's et les retours charriot.
+- Obf. des variables.
+
+Options pour c_stat.php
+- idem.
+
+Options pour c_requete :
+- Obf. variables. (c'est tout)
+
+
+Desactiver le Force_Local_mysql dans le fichier de conf.
+
+
+/!\ Retirer le fichier des dernieres modifs + tout les .bak /!\

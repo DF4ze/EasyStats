@@ -1,0 +1,11 @@
+Date;;Nb TOTAL d'Appels reçus;Nb total d'abandons;Base Statistique du nombre d'appels;Nb Total d'Appels décrochés;Nb d'Abandons <= 25s;Nb d'abandons >  25s et <= 25 s;Nb Abandons > 25s;Nb Appels décrochés <= 25s;Nb Appels décrochés > 25s et <= 25s;Nb Appels décrochés > 25s;Temps moyen conversation;Pris < 25s;SLA
+24/08;;7;2;6;5;1;0;1;5;0;0;00:20:39;83.33;80;
+25/08;;11;4;9;7;2;0;2;4;0;3;00:9:30;44.44;80;
+26/08;;0;0;0;0;0;0;0;0;0;0;00:0:00;0.00;80;
+27/08;;0;0;0;0;0;0;0;0;0;0;00:0:00;0.00;80;
+28/08;;0;0;0;0;0;0;0;0;0;0;00:0:00;0.00;80;
+29/08;;0;0;0;0;0;0;0;0;0;0;00:0:00;0.00;80;
+30/08;;0;0;0;0;0;0;0;0;0;0;00:0:00;0.00;80;
+31/08;;0;0;0;0;0;0;0;0;0;0;00:0:00;0.00;80;
+
+;Totaux;18;6;15;12;3;0;3;9;0;3;00:14:08;60.00;80;
